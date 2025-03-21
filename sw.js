@@ -1,7 +1,7 @@
 const CACHE_NAME = 'chemeq-cache-v1';
 const ASSETS_TO_CACHE = [
   '/', // Root path (usually serves balancer.html)
-  'balancer.html',
+  'index.html',
   'balancer.css',
   'balancer.js',
   'FiraCode-Regular.ttf',
@@ -45,7 +45,7 @@ self.addEventListener('fetch', (event) => {
           })
           .catch(() => {
             // Fallback for offline mode
-            return caches.match('balancer.html');
+            return caches.match('index.html');
           });
       })
   );
