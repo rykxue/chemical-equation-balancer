@@ -1,7 +1,7 @@
 {
   "name": "Chemical Equation Balancer",
   "short_name": "ChemEq Balancer",
-  "start_url": "balancer.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#1E1E1E",
   "theme_color": "#272727",
